@@ -1,0 +1,45 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.intro__tittle {
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 54px;
+    leading-trim: NONE;
+    line-height: 58px;
+    letter-spacing: 0%;
+}
+
+.intro__subtittle {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 34px;
+    letter-spacing: 0%;
+}
+
+.intro__author {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: right;
+
+}
+
+.intro__tex {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 163%;
+    letter-spacing: 0%;
+
+}
