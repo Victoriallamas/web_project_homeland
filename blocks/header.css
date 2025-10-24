@@ -1,13 +1,13 @@
-.header {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+    .header {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
-.header__logo {
-    width: 200px;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+    .header__logo {
+        width: 200px;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
