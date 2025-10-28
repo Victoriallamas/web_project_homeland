@@ -9,7 +9,7 @@
  .lead__tittle {
      font-weight: 900;
      font-style: Black;
-     font-size: 96px;
+     font-size: 100px;
      line-height: 100px;
      letter-spacing: 0%;
      text-align: center;
@@ -34,4 +34,34 @@
      height: 607px;
      margin-top: 20px;
 
+ }
+
+ /* Medida para tablets (768px a 1280px) */
+ @media screen and (min-width: 768px) and (max-width: 1280px) {
+
+     .lead__tittle {
+         font-size: 60px;
+
+     }
+
+     .lead__subtittle {
+         font-size: 20px;
+         line-height: 28px;
+     }
+ }
+
+ /* Medida para telefonos (320px a 767px) */
+ @media screen and (min-width: 320px) and (max-width: 767px) {
+     .lead__tittle {
+         font-size: 30px;
+     }
+
+     .lead__subtittle {
+         font-size: 15px;
+         line-height: 18px;
+     }
+
+     .lead__image {
+         height: 300px;
+     }
  }

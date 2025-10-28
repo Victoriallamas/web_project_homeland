@@ -40,3 +40,23 @@
     max-width: 830px;
 
 }
+
+/* Medida para tablets (768px a 1280px) */
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .intro__tittle {
+        font-size: 44px;
+        line-height: 48px;
+    }
+}
+
+/* Medida para telefonos (320px a 767px) */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .intro__tittle {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .intro__subtittle {
+        font-size: 21 px;
+    }
+}
