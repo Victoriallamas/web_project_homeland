@@ -3,6 +3,8 @@
     flex-direction: column;
     max-width: 984px;
     margin: 0 auto;
+    padding: 48px 24px 48px 24px;
+
 }
 
 .intro__section {
