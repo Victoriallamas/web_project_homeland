@@ -1,6 +1,10 @@
  .photo-grid {
-     padding: 46px 48px 46px;
+     max-width: 1184px;
+     padding: 0 53px 0 43px;
      margin: 0 auto;
+     padding-top: 118px;
+
+
 
  }
 
@@ -8,7 +12,7 @@
      display: grid;
      grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
      gap: 16px;
-     list-style-type: none;
+     list-style: none;
      margin: 0;
      padding: 0;
  }
@@ -19,15 +23,17 @@
      display: block;
      object-fit: cover;
      max-width: 100%;
+
  }
 
 
 
 
  /* Medida para tablets (768px a 1280px) */
- @media screen and (min-width: 768px) {
+ @media screen and (min-width: 768px) and (max-width: 1280px) {
      .photo-grid {
-         padding: 46px 48px 46px;
+         max-width: 720px;
+         padding: 24px;
          margin: 0 auto;
      }
 
@@ -44,11 +50,13 @@
  }
 
 
- /* Medida para telefonos (767px) */
- @media screen and (max-width: 767px) {
+ /* Medida para telefonos (320px a 767px) */
+ @media screen and (max-width: 320px) {
      .photo-grid {
-         padding: 24px;
+         max-width: 288px;
+         padding: 16px;
          margin: 0 auto;
+
      }
 
      .photo-grid__list {
