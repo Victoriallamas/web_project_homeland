@@ -58,7 +58,7 @@
  }
 
  /* Medida para telefonos (320px a 767px) */
- @media screen and (max-width: 320px) {
+ @media screen and (max-width: 320px) and (max-width: 767px) {
 
      .lead__tittle {
          font-size: 40px;
