@@ -7,7 +7,7 @@
 
     }
 
-    .place {
+    .places__item {
         display: grid;
         grid-template-columns: 460px 1fr;
         grid-template-rows: auto auto 1fr;
@@ -16,13 +16,11 @@
             'title artist'
             'image text'
             'button text';
-    }
-
-    .places__item {
         margin: 0 0 80px;
     }
 
-    .place__title {
+
+    .places__title {
         font-family: "inter", sans-serif;
         font-size: 72px;
         line-height: 76px;
@@ -31,7 +29,7 @@
         grid-area: title;
     }
 
-    .place__image {
+    .places__image {
         width: 100%;
         display: block;
         box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
@@ -39,7 +37,7 @@
         object-fit: cover;
     }
 
-    .place__button {
+    .places__button {
         width: max-content;
         height: max-content;
         color: #FFFFFF;
@@ -56,25 +54,25 @@
         grid-area: button;
     }
 
-    .place__artist {
+    .places__artist {
         grid-area: artist;
 
 
 
     }
 
-    .place__artist-heading {
+    .places__artist-heading {
         color: #aaa;
         letter-spacing: 3px;
         font-size: 18px;
     }
 
-    .place__artist-name {
+    .places__artist-name {
         font-size: 18px;
         line-height: 0.5;
     }
 
-    .place__name {
+    .places__name {
         line-height: 22px;
         margin: 0;
         font-size: 18px;
@@ -83,7 +81,7 @@
 
     }
 
-    .place__description {
+    .places__description {
         line-height: 1.5;
         grid-area: text;
         font-size: 18px;
@@ -102,36 +100,36 @@
 
         }
 
-        .place {
+        .places__item {
             grid-template-areas:
-                'title'
-                'artist'
-                'image'
-                'text'
-                'button';
+                'title artist'
+                'image text'
+                'button text';
             ;
+            grid-template-columns: 1fr;
+
         }
 
-        .place__artist {
+        .places__artist {
             grid-area: artist;
         }
 
-        .place__title {
+        .places__title {
             font-size: 42px;
 
         }
 
-        .place__image {
+        .places__image {
             max-width: 340px;
         }
 
-        .place__description {
+        .places__description {
             line-height: 1.5;
             grid-area: text;
             font-size: 16px;
         }
 
-        .place__image {
+        .places__image {
             display: block;
         }
 
@@ -144,7 +142,8 @@
             padding: 0 16px;
         }
 
-        .place {
+
+        .places__item {
             grid-template-areas:
                 'title'
                 'artist'
@@ -155,20 +154,20 @@
             padding: 0 16px;
         }
 
-        .place__title {
+        .places__title {
             font-size: 32px;
             grid-area: title;
         }
 
-        .place__image {
+        .places__image {
             max-width: 320px;
         }
 
-        .place__description {
+        .places__description {
             font-size: 16px;
         }
 
-        .place__image {
+        .places__image {
             display: block;
         }
     }
